@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Json-server",
+      "author": "typicode",
+      "image": "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus a dicta doloribus corrupti, vitae adipisci vel quasi officiis perspiciatis, iure mollitia laborum temporibus recusandae distinctio iste? Non, dicta illo. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Quasi dolorum aut, eius soluta mollitia aliquam, nostrum magnam nemo blanditiis cum corrupti odit quis tempore, architecto nesciunt aliquid animi commodi dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Animi qui exercitationem beatae praesentium, excepturi corrupti accusamus cumque. Deleniti quam nesciunt, laboriosam nulla, minus, laborum veritatis illum ipsa tempora non inventore?"
+    },
+    {
+      "id": 2,
+      "title": "Blog post #2",
+      "author": "typicode",
+      "image": "https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus a dicta doloribus corrupti, vitae adipisci vel quasi officiis perspiciatis, iure mollitia laborum temporibus recusandae distinctio iste?<br /> Non, dicta illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Quasi dolorum aut, eius soluta mollitia aliquam, nostrum magnam nemo blanditiis cum corrupti odit quis tempore, architecto nesciunt aliquid animi commodi dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui exercitationem beatae praesentium, excepturi corrupti accusamus cumque. Deleniti quam nesciunt, laboriosam nulla, minus, laborum veritatis illum ipsa tempora non inventore?"
+    },
+    {
+      "id": 3,
+      "title": "Blog post #3",
+      "author": "Mārtiņš Belte",
+      "image": "https://www.sbb.ch/content/dam/internet/sharedimages/personen/GA-Hund.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus a dicta doloribus corrupti, vitae adipisci vel quasi officiis perspiciatis, iure mollitia laborum temporibus recusandae distinctio iste?"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author": "Some person",
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "author": "Some person",
+      "body": "2nd comment",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "author": "Some person",
+      "body": "third comment",
+      "postId": 1
+    },
+    {
+      "author": "vladiks",
+      "body": "komentārs",
+      "postId": "1",
+      "id": 4
+    },
+    {
+      "author": "autors",
+      "body": "komentārs",
+      "postId": "1",
+      "id": 5
+    },
+    {
+      "author": "asdasd",
+      "body": "asdsad",
+      "postId": "1",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
